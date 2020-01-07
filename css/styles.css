@@ -97,11 +97,19 @@ transform: rotateY(300deg) translateZ(270px);
 .controle{
     display:grid;
     grid:2rem/repeat(2,1fr);
-    place-items:center
+    place-items:center;
+    margin-top: -22%;
+}
+.margin-top-25{
+    margin-top: 25%;
+}
+.margin-top-10{
+    margin-top: 15%;
 }
 button{
     font-size: 2rem;
     border: none;
     cursor: pointer;
     background: var(--bgcolor1);
+    color: var(--light-grey);
 }
